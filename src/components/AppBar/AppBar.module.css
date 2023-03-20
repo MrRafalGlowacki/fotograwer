@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.border {
+  border-bottom: 1px solid #ececec;
+}
+.icon {
+  cursor: pointer;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon:hover,
+header__menu-mbl:focus {
+  fill: getColor(main);
+}
+.logo {
+  font-size: 32px;
+  font-family: "Raleway", "Oleo Script", sans-serif;
+  font-weight: 700;
+  line-height: 1.17, 1.38;
+  letter-spacing: 3%;
+  text-decoration: none;
+  color: #ffae00;
+}
+.span {
+  color: #000000;
+}
+.phone {
+  color: #757575;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  text-decoration: none;
+  fill: #757575;
+  display: flex;
+
+  align-items: center;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.phone:hover {
+  color: #ffae00;
+  fill: #ffae00;
+}
