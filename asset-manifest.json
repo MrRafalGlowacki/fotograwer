@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fotograwer/static/css/main.b8583812.css",
+    "main.css": "/fotograwer/static/css/main.b5a865cc.css",
     "main.js": "/fotograwer/static/js/main.35ce8ec7.js",
     "static/js/787.bb149e80.chunk.js": "/fotograwer/static/js/787.bb149e80.chunk.js",
     "static/media/hero.jpg": "/fotograwer/static/media/hero.c470dc7b54612bbdf486.jpg",
     "index.html": "/fotograwer/index.html",
-    "main.b8583812.css.map": "/fotograwer/static/css/main.b8583812.css.map",
+    "main.b5a865cc.css.map": "/fotograwer/static/css/main.b5a865cc.css.map",
     "main.35ce8ec7.js.map": "/fotograwer/static/js/main.35ce8ec7.js.map",
     "787.bb149e80.chunk.js.map": "/fotograwer/static/js/787.bb149e80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8583812.css",
+    "static/css/main.b5a865cc.css",
     "static/js/main.35ce8ec7.js"
   ]
 }
