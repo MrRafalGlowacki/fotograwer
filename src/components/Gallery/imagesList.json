@@ -1,0 +1,37 @@
+[
+  {
+    "index": "1",
+    "src": "/images/golab.jpg",
+    "alt": "gołąb"
+  },
+  {
+    "index": "2",
+    "src": "/images/gory.jpg",
+    "alt": "góry"
+  },
+  {
+    "index": "3",
+    "src": "/images/herma.jpg",
+    "alt": "portret"
+  },
+  {
+    "index": "4",
+    "src": "/images/hermaNoName.jpg",
+    "alt": "portret"
+  },
+  {
+    "index": "5",
+    "src": "/images/kaniNoName.jpg",
+    "alt": "portret"
+  },
+  {
+    "index": "6",
+    "src": "/images/MBCzestochowska.jpg",
+    "alt": "MB Częstochowska"
+  },
+  {
+    "index": "7",
+    "src": "/images/perkusja.jpg",
+    "alt": "perkusja"
+  }
+]

@@ -1,13 +1,9 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
   height: 80px;
-  min-width: 320px;
-  max-width: 1200px;
+
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .border {
   border-bottom: 1px solid #ececec;
@@ -52,4 +48,15 @@ header__menu-mbl:focus {
 .phone:hover {
   color: #ffae00;
   fill: #ffae00;
+}
+@media screen and (min-width: 450px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 320px;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

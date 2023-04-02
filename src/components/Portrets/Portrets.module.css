@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr auto auto auto auto 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  justify-self: center;
+}
+.paragraph {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  justify-self: center;
+}
+.port1 {
+  display: block;
+  max-width: 11vw;
+  object-fit: cover;
+  height: 100%;
+}
+.port2a {
+  display: block;
+  max-width: 12vw;
+
+  object-fit: cover;
+  height: 100%;
+}
+.port2b {
+  display: block;
+  max-width: 12vw;
+  object-fit: cover;
+  height: 100%;
+}
+.port3 {
+  display: block;
+  max-width: 12vw;
+  object-fit: cover;
+  height: 100%;
+}
+.board {
+  display: block;
+  max-width: 50vw;
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  /* grid-row-start: 5;
+  grid-row-end: 5; */
+  justify-self: center;
+}
