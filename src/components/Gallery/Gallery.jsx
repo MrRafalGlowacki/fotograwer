@@ -16,7 +16,7 @@ const Gallery = ({ images }) => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Galeria prac</h2>
+      <h2 className={styles.title}>Galeria </h2>
       <div className={styles.gallery}>
         {images.map((image, index) => (
           <img

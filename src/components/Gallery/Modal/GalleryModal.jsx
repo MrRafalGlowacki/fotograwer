@@ -1,16 +1,17 @@
 import React, { useEffect } from "react";
 import styles from "./Modal.module.css";
+import PropTypes from "prop-types";
 
 const GalleryModal = ({ onClick, src, tags }) => {
   useEffect(() => {
-    const handleKeyDown = event => {
-      if (event.key === 'Escape') {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
         onClick();
       }
     };
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener("keydown", handleKeyDown);
     };
   });
   return (
@@ -28,3 +29,9 @@ const GalleryModal = ({ onClick, src, tags }) => {
 };
 
 export default GalleryModal;
+
+GalleryModal.propTypes = {
+  onClick: PropTypes.func,
+  src: PropTypes.string,
+  tags: PropTypes.string,
+};
