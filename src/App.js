@@ -9,14 +9,16 @@ import galleryData from "./components/Gallery/imagesList.json";
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <AppBar />
-      <Hero />
-      <FotoToEngrave />
-      <Portrets />
-      <Gallery images={galleryData} />
+      <div className="container">
+        <Hero />
+        <FotoToEngrave />
+        <Portrets />
+        <Gallery images={galleryData} />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

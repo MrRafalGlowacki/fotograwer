@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Gallery.module.css";
 import PropTypes from "prop-types";
 import GalleryModal from "./Modal/GalleryModal";
+import { Paper } from "@mui/material";
 
 const Gallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -19,13 +20,14 @@ const Gallery = ({ images }) => {
       <h2 className={styles.title}>Galeria </h2>
       <div className={styles.gallery}>
         {images.map((image, index) => (
-          <img
-            key={index}
-            src={image.src}
-            alt={image.alt}
-            onClick={() => handleClick(image)}
-            className={styles.image}
-          />
+          <Paper key={index} elevation={3} className={styles.paper}>
+            <img
+              src={image.src}
+              alt={image.alt}
+              onClick={() => handleClick(image)}
+              className={styles.image}
+            />
+          </Paper>
         ))}
         {selectedImage && (
           <GalleryModal

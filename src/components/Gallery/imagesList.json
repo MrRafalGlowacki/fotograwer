@@ -1,8 +1,8 @@
 [
   {
     "index": "1",
-    "src": "/images/golab.jpg",
-    "alt": "gołąb"
+    "src": "/images/MBCzestochowska.jpg",
+    "alt": "MB Częstochowska"
   },
   {
     "index": "2",
@@ -26,12 +26,52 @@
   },
   {
     "index": "6",
-    "src": "/images/MBCzestochowska.jpg",
-    "alt": "MB Częstochowska"
+    "src": "/images/golab.jpg",
+    "alt": "gołąb"
   },
   {
     "index": "7",
     "src": "/images/perkusja.jpg",
     "alt": "perkusja"
+  },
+  {
+    "index": "8",
+    "src": "/images/book.jpg",
+    "alt": "książka"
+  },
+  {
+    "index": "9",
+    "src": "/images/candle.jpg",
+    "alt": "świeca"
+  },
+  {
+    "index": "10",
+    "src": "/images/cross.jpg",
+    "alt": "krzyż"
+  },
+  {
+    "index": "11",
+    "src": "/images/golabCol.jpg",
+    "alt": "gołąb"
+  },
+  {
+    "index": "12",
+    "src": "/images/milosierny.jpg",
+    "alt": "Jezus Miłosierny"
+  },
+  {
+    "index": "13",
+    "src": "/images/milosiernyCol.jpg",
+    "alt": "Jezus Miłosierny"
+  },
+  {
+    "index": "14",
+    "src": "/images/pelcNoName.jpg",
+    "alt": "krzyż i świeca"
+  },
+  {
+    "index": "15",
+    "src": "/images/pilkarz.jpg",
+    "alt": "piłkarz"
   }
 ]

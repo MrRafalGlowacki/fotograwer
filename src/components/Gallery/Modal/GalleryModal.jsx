@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styles from "./Modal.module.css";
+import styles from "./GalleryModal.module.css";
 import PropTypes from "prop-types";
 
 const GalleryModal = ({ onClick, src, tags }) => {

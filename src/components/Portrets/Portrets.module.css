@@ -18,14 +18,13 @@
 }
 .port1 {
   display: block;
-  max-width: 11vw;
+  max-width: 12vw;
   object-fit: cover;
   height: 100%;
 }
 .port2a {
   display: block;
   max-width: 12vw;
-
   object-fit: cover;
   height: 100%;
 }

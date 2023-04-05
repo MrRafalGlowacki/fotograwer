@@ -17,8 +17,11 @@ const Portrets = () => {
       <Paper
         elevation={3}
         sx={{
-          maxWidth: "11vw",
+          width: "12vw",
           overflow: "hidden",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           justifySelf: "center",
           gridColumnStart: "3",
         }}
@@ -27,26 +30,47 @@ const Portrets = () => {
       </Paper>
       <Paper
         elevation={3}
-        sx={{ maxWidth: "12vw", overflow: "hidden", justifySelf: "center" }}
+        sx={{
+          width: "12vw",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          overflow: "hidden",
+          justifySelf: "center",
+        }}
       >
         <img className={css.port2a} src={port2a} alt="old photograph" />
       </Paper>
       <Paper
         elevation={3}
-        sx={{ maxWidth: "12vw", overflow: "hidden", justifySelf: "center" }}
+        sx={{
+          width: "12vw",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          overflow: "hidden",
+          justifySelf: "center",
+        }}
       >
         <img className={css.port2b} src={port2b} alt="old photograph" />
       </Paper>
       <Paper
         elevation={3}
-        sx={{ maxWidth: "12vw", overflow: "hidden", justifySelf: "center" }}
+        sx={{
+          width: "12vw",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          overflow: "hidden",
+          justifySelf: "center",
+        }}
       >
         <img className={css.port3} src={port3} alt="old photograph" />
       </Paper>
       <Paper
         elevation={3}
         sx={{
-          maxWidth: "50vw",
+          width: "50vw",
           overflow: "hidden",
           justifySelf: "center",
           gridRowStart: "5",
